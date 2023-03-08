@@ -29,7 +29,7 @@
             "type": ["string","null"]
           },
         "deviceVersion":  {
-            "type": ["string","null"]
+            "type": ["integer","null"]
           },
         "displayName":  {
             "type": ["string","null"]
