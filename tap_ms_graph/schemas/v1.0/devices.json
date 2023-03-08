@@ -2,95 +2,95 @@
     "type":"object",
     "properties": {
         "deletedDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "accountEnabled":  {
-            "type": "string"
+            "type": "boolean"
           },
         "approximateLastSignInDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "complianceExpirationDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "createdDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "deviceCategory":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "deviceId":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "deviceMetadata":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "deviceOwnership":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "deviceVersion":  {
-            "type": "int"
+            "type": ["string","null"]
           },
         "displayName":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "domainName":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "enrollmentProfileName":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "enrollmentType":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "externalSourceName":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "isCompliant":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "isManaged":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "isRooted":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "managementType":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "manufacturer":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "mdmAppId":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "model":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "onPremisesLastSyncDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "onPremisesSyncEnabled":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "operatingSystem":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "operatingSystemVersion":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "profileType":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "registrationDateTime":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         "sourceType":  {
-            "type": "string"
+            "type": ["string","null"]
           },
         
         "trustType":  {
-            "type": "string"
+            "type": ["string","null"]
           }
     }
 }
