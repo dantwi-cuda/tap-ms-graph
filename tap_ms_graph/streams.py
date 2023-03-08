@@ -17,3 +17,11 @@ class UsersStream(MSGraphStream):
     primary_keys = ['id']
     replication_key = None
     schema_filename = 'users.json'
+
+
+class UsersStream(MSGraphStream):
+    name = 'devices'
+    path = '/devices'
+    primary_keys = ['id']
+    replication_key = None
+    schema_filename = 'devices.json'

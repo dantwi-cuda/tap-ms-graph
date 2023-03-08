@@ -1,0 +1,96 @@
+{
+    "type":"object",
+    "properties": {
+        "deletedDateTime":  {
+            "type": "string"
+          },
+        "accountEnabled":  {
+            "type": "string"
+          },
+        "approximateLastSignInDateTime":  {
+            "type": "string"
+          },
+        "complianceExpirationDateTime":  {
+            "type": "string"
+          },
+        "createdDateTime":  {
+            "type": "string"
+          },
+        "deviceCategory":  {
+            "type": "string"
+          },
+        "deviceId":  {
+            "type": "string"
+          },
+        "deviceMetadata":  {
+            "type": "string"
+          },
+        "deviceOwnership":  {
+            "type": "string"
+          },
+        "deviceVersion":  {
+            "type": "int"
+          },
+        "displayName":  {
+            "type": "string"
+          },
+        "domainName":  {
+            "type": "string"
+          },
+        "enrollmentProfileName":  {
+            "type": "string"
+          },
+        "enrollmentType":  {
+            "type": "string"
+          },
+        "externalSourceName":  {
+            "type": "string"
+          },
+        "isCompliant":  {
+            "type": "string"
+          },
+        "isManaged":  {
+            "type": "string"
+          },
+        "isRooted":  {
+            "type": "string"
+          },
+        "managementType":  {
+            "type": "string"
+          },
+        "manufacturer":  {
+            "type": "string"
+          },
+        "mdmAppId":  {
+            "type": "string"
+          },
+        "model":  {
+            "type": "string"
+          },
+        "onPremisesLastSyncDateTime":  {
+            "type": "string"
+          },
+        "onPremisesSyncEnabled":  {
+            "type": "string"
+          },
+        "operatingSystem":  {
+            "type": "string"
+          },
+        "operatingSystemVersion":  {
+            "type": "string"
+          },
+        "profileType":  {
+            "type": "string"
+          },
+        "registrationDateTime":  {
+            "type": "string"
+          },
+        "sourceType":  {
+            "type": "string"
+          },
+        
+        "trustType":  {
+            "type": "string"
+          }
+    }
+}
