@@ -28,7 +28,7 @@ class UsersStream(MSGraphStream):
 
 class UsersStream(MSGraphStream):
     name = 'signins'
-    path = '/auditLogs/signIns'
+    path = '/auditlogs/signins'
     primary_keys = ['id']
     replication_key = 'createdDateTime'
     schema_filename = 'signins.json'
