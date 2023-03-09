@@ -1,0 +1,134 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "properties": {
+ 
+      "createdDateTime": {
+        "type": ["string","null"]
+      },
+      "userDisplayName": {
+        "type": ["string","null"]
+      },
+      "userPrincipalName": {
+        "type": ["string","null"]
+      },
+      "userId": {
+        "type": ["string","null"]
+      },
+      "appId": {
+        "type": ["string","null"]
+      },
+      "appDisplayName": {
+        "type": ["string","null"]
+      },
+      "ipAddress": {
+        "type": ["string","null"]
+      },
+      "clientAppUsed": {
+        "type": ["string","null"]
+      },
+      "correlationId": {
+        "type": ["string","null"]
+      },
+      "conditionalAccessStatus": {
+        "type": ["string","null"]
+      },
+      "isInteractive": {
+        "type": "boolean"
+      },
+      "riskDetail": {
+        "type": ["string","null"]
+      },
+      "riskLevelAggregated": {
+        "type": ["string","null"]
+      },
+      "riskLevelDuringSignIn": {
+        "type": ["string","null"]
+      },
+      "riskState": {
+        "type": ["string","null"]
+      },
+      "riskEventTypes": {
+        "type": "array",
+        "items": {}
+      },
+      "riskEventTypes_v2": {
+        "type": "array",
+        "items": {}
+      },
+      "resourceDisplayName": {
+        "type": ["string","null"]
+      },
+      "resourceId": {
+        "type": ["string","null"]
+      },
+      "status": {
+        "type": "object",
+        "properties": {
+          "errorCode": {
+            "type": ["integer","null"]
+          },
+          "failureReason": {
+            "type": ["string","null"]
+          },
+          "additionalDetails": {
+            "type": ["string","null"]
+          }
+        }
+      },
+      "deviceDetail": {
+        "type": "object",
+        "properties": {
+          "deviceId": {
+            "type": ["string","null"]
+          },
+          "displayName": {
+            "type": ["string","null"]
+          },
+          "operatingSystem": {
+            "type": ["string","null"]
+          },
+          "browser": {
+            "type": ["string","null"]
+          },
+          "isCompliant": {
+            "type": "boolean"
+          },
+          "isManaged": {
+            "type": "boolean"
+          },
+          "trustType": {
+            "type": ["string","null"]
+          }
+        }
+      },
+      "location": {
+        "type": "object",
+        "properties": {
+          "city": {
+            "type": ["string","null"]
+          },
+          "state": {
+            "type": ["string","null"]
+          },
+          "countryOrRegion": {
+            "type": ["string","null"]
+          },
+          "geoCoordinates": {
+            "type": "object",
+            "properties": {
+              "altitude": {
+                "type": ["string","null"]
+              },
+              "latitude": {
+                "type": ["number","null"]
+              },
+              "longitude": {
+                "type": ["number","null"]
+              }
+            }
+          }
+        }
+      }
+    }
+  }
