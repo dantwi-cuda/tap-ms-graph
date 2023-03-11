@@ -85,7 +85,7 @@ class MSGraphStream(RESTStream):
 
         if next_page_token:
             prepared_request.url = next_page_token
-
+        self.logger.info(f'INFO response Prepared Request: {prepared_request}')
         return prepared_request
 
     def parse_response(self, response: requests.Response) -> Iterable[dict]:
